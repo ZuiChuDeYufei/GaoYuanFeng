@@ -1,0 +1,35 @@
+//
+//  HeaderPrefix.pch
+//  GaoYuanFeng
+//
+//  Created by hsrd on 2018/3/16.
+//  Copyright © 2018年 HSRD. All rights reserved.
+//
+
+#ifndef HeaderPrefix_h
+#define HeaderPrefix_h
+
+#import "HeaderConstant.h"
+#import "SynthesizeSingleton.h"
+#import "UIView+Extension.h"
+#import "UIColor+Extension.h"
+#import "NSString+GJCategory.h"
+#import "GaoYuanFeng-Swift.h"
+#import "UIImage+GJExtension.h"
+
+/* GJ prefix */
+#import "GJTypeFile.h"
+#import "GJConfigureManager.h"
+#import "GJFunctionManager.h"
+#import "GJUserAccountManager.h"
+#import "GJHttpNetworkingManager.h"
+#import "GJBaseNavigationController.h"
+#import "GJLoginRegisterController.h"
+#import "GJBaseTableView.h"
+#import "TKWebMedia.h"
+
+/* third library */
+#import <Masonry.h>
+#import "UIImageView+WebCache.h"
+
+#endif /* HeaderPrefix_h */
